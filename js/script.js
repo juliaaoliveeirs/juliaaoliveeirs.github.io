@@ -1,7 +1,3 @@
-/* https://api.github.com/users/juliaaoliveeirs
-
-https://api.github.com/users/juliaaoliveeirs/repos */
-
 import GetUser from './modules/profile.js';
 import GetProjects from './modules/projects.js';
 
