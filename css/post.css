@@ -1,0 +1,35 @@
+.post-item {
+  display: grid;
+  grid-template-columns: 128px 1fr;
+  padding: 30px;
+  gap: 20px;
+}
+
+a .post-item:hover {
+  scale: 1.02;
+  transition: 0.5s;
+  color: var(--text-color-hover);
+}
+
+.post-item-details h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.post-item-details p {
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.details-tags {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .post-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

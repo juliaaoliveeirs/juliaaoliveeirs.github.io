@@ -3,144 +3,163 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Desenvolvedor Front End & UX/UI Designer">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <title>Lobo - Desenvolvedor e UX/UI Designer</title>
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <title>Document</title>
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <img src="img/marca.svg" alt="Lobo" width="104" height="38">
+  <div class="grid-container">
+    <aside class="profile-informations">
+      <div class="card profile">
+        <img id="avatar" src="assets/avatar.png" alt="Julia Silva">
+        <h1>Julia de Oliveira Silva</h1>
+        <span>Analista de Desenvolvimento de Software</span>
+      </div>
 
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+      <div class="card contact">
+        <ul>
+          <li class="city"><img src="assets/map-pin.svg" alt="">Brasil</li>
+          <li class="company"><img src="assets/briefcase.svg" alt="">Totvs</li>
+          <li><img src="assets/github.svg" alt=""><a href="https://github.com/juliaaoliveeirs" target="_blank">juliaaoliveeirs</a></li>
+          <li><img src="assets/linkedin.svg" alt=""><a href="https://www.linkedin.com/in/julia-oliveira-silva/" target="_blank">julia-oliveira-silva</a></li>
+          <li><img src="assets/twitter.svg" alt=""><a href="https://twitter.com/juliaaoliveeirs" target="_blank">juliaaoliveeirs</a></li>
+          <li><img src="assets/globe.svg" alt=""><a href="https://juliaaoliveeirs.github.io/juliasilvao.github.io/" target="_blank">https://juliaaoliveeirs.github.io/</a></li>
+          <li><img src="assets/mail.svg" alt=""><a href="mailto:julia.oliveira.silva@outlook.com" target="_blank">julia.oliveira.silva@outlook.com</a></li>
+        </ul>
+      </div>
 
-  <main class="introducao">
-    <img src="img/perfil.jpg" alt="Lobo Cinza" width="360" height="520">
-    <div>
-      <h1>Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
-      <p>Localizado no Rio de Janeiro 🏖</p>
-    </div>
-  </main>
-
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
-
-      <div class="empresa">
-        <span class="empresa-ano">2045</span>
-        <h3 class="empresa-titulo">Bikcraft</h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
+      <div class="card technologies">
+        <h2 class="profile-title">Tecnologias</h2>
+        <ul class="technologies-list">
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>GitHub</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>JavaScript</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
         </ul>
       </div>
 
-      <div class="empresa">
-        <span class="empresa-ano">2044-45</span>
-        <h3 class="empresa-titulo">Surfbot</h3>
-        <span class="empresa-titulo">Estagiário</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
+      <div class="card experiences">
+        <h2 class="profile-title">Experiências</h2>
+        <ul class="list">
+          <li>
+            <h3 class="list-title">TOTVS</h3>
+            <span class="list-info">2021-Atualmente</span>
+            <p>Analista de Desenvolvimento de Software</p>
+          </li>
+          <li>
+            <h3 class="list-title">Unimed De Guaratinguetá</h3>
+            <span class="list-info">2018-2021</span>
+            <p>Analista de Sistemas</p>
+          </li>
+          <li>
+            <h3 class="list-title">Unimed De Guaratinguetá</h3>
+            <span class="list-info">2017-2018</span>
+            <p>Estagiária</p>
+          </li>
+          <li>
+            <h3 class="list-title">J3R-TEC</h3>
+            <span class="list-info">2020-2021</span>
+            <p>Desenvolvedora WEB</p>
+          </li>
         </ul>
       </div>
 
-      <div class="empresa">
-        <span class="empresa-ano">2044</span>
-        <h3 class="empresa-titulo">Brafé</h3>
-        <span class="empresa-titulo">Voluntário</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
-          <li>Email Marketing</li>
-          <li>HTML</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
+      <div class="card education">
+        <h2 class="profile-title">Educação</h2>
+        <ul class="list">
+          <li>
+            <h3 class="list-title">FATEC Guaratinguetá</h3>
+            <span class="list-info">2015-2018</span>
+            <p>Gestão de Tecnologia de Informação</p>
+          </li>
         </ul>
       </div>
-    </div>
-  </section>
 
-  <section class="formacao" id="formacao" aria-label="Formação">
-    <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
-
-      <div>
-        <p class="formacao-texto"> Minha mais recente experiência acadêmica foi o <strong>mestrado</strong> 🎓 que fiz no exterior em <strong>UX Design</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.</p>
-
-        <ul class="faculdade-lista">
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso">Administração de Empresas</h3>
-            <span class="faculdade-instituicao">UFRRJ</span>
+      <div class="card licenses-certificates">
+        <h2 class="profile-title">Licenças e Certificados</h2>
+        <ul class="list">
+          <li>
+            <a target="_blank" href="https://www.credly.com/badges/e8c3c67c-1f63-471d-8c21-f44abdc6bddd/linked_in_profile">
+              <h3 class="list-title">Scrum Foundation Professional Certificate - SFPC™</h3>
+              <span class="list-info">2023-2025</span>
+              <p>CertiProf International</p>
+            </a>
           </li>
-          <li class="faculdade">
-            <span class="faculdade-tipo">Tecnólogo</span>
-            <h3 class="faculdade-curso">Design Digital</h3>
-            <span class="faculdade-instituicao">Infnet</span>
+          <li>
+            <a target="_blank" href="https://www.origamid.com/certificate/a140f18e">
+              <h3 class="list-title">HTML e CSS para Iniciantes</h3>
+              <span class="list-info">2023</span>
+              <p>Origamid</p>
+            </a>
           </li>
-          <li class="faculdade">
-            <span class="faculdade-tipo">Mestre</span>
-            <h3 class="faculdade-curso">User Experience Design</h3>
-            <span class="faculdade-instituicao">UCCL</span>
+          <li>
+            <a target="_blank" href="https://www.origamid.com/certificate/b3c9704f">
+              <h3 class="list-title">CSS Flexbox</h3>
+              <span class="list-info">2023</span>
+              <p>Origamid</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.origamid.com/certificate/414e3e9a">
+              <h3 class="list-title">CSS Grid Layout</h3>
+              <span class="list-info">2023</span>
+              <p>Origamid</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.origamid.com/certificate/5eb5b4ee">
+              <h3 class="list-title">JavaScript Completo ES6</h3>
+              <span class="list-info">2023</span>
+              <p>Origamid</p>
+            </a>
           </li>
         </ul>
+      </div>
+    </aside>
 
-        <div class="formacao-extra">
-          <div class="cursos">
-            <h3>Cursos Intensivos</h3>
-            <ul>
-              <li>UX Design & UI Design <span>56h</span></li>
-              <li>Front End para Iniciantes <span>72h</span></li>
-            </ul>
+    <section class="feed">
+      <div class="card project-title">
+        <h2 class="feed-title">My Projects</h2>
+        <a href="https://github.com/juliaaoliveeirs?tab=repositories" target="_blank">Veja todos</a>
+      </div>
+      <div class="project-list">
+
+      </div>
+      <h2 class="card feed-title">Recent Posts</h2>
+      <div class="post-list">
+        <a href="#">
+          <div class="card post-item">
+            <img id="avatar" src="assets/avatar.png" alt="Julia Silva">
+            <h3 id="avatar">Julia Silva</h3>
+            <div class="post-item-details">
+              <h3 class="list-title">Erro adb devices no Genymotion e Android Studio (React Native)</h3>
+              <span class="list-info">2 anos atrás</span>
+              <p>Erro adb devices no Genymotion e Android Studio (React Native)</p>
+              <ul class="details-tags">
+                <li>#react-native</li>
+                <li>#genimotion</li>
+                <li>#genimotion</li>
+                <li>#genimotion</li>
+              </ul>
+            </div>
           </div>
-
-          <div class="idiomas">
-            <h3>Idiomas</h3>
-            <ul>
-              <li>Inglês <span>/ Fluente</span></li>
-              <li>Espanhol <span>/ Intermediário</span></li>
-            </ul>
-          </div>
-        </div>
+        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer" id="contato">
-    <div class="footer-container">
-      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
-      <ul class="footer-contato">
-        <li>lobo@email.com</li>
-        <li>+55 21 9999-9999</li>
-        <li><a href="/">@origamid</a></li>
-      </ul>
-      <p class="footer-copy">
-        Lobo. Alguns direitos reservados
-      </p>
-    </div>
-  </footer>
+    <footer>
+      Feito com 💜 por juliaaoliveeirs
+    </footer>
+  </div>
 
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>

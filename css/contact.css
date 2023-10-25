@@ -1,0 +1,19 @@
+.contact ul {
+  padding: 0px 40px;
+}
+
+.contact li {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 20px;
+  font-size: 0.75rem;
+  align-items: center;
+}
+
+.contact li + li {
+  margin-top: 20px;
+}
+
+.contact li a:hover {
+  color: var(--text-color-hover);
+}

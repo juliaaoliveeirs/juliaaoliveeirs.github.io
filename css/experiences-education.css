@@ -1,0 +1,26 @@
+.list {
+  list-style: initial;
+  padding-left: 60px;
+  font-size: 0.75rem;
+}
+
+.list li + li {
+  margin-top: 20px;
+}
+.list-info {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.list-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.card.licenses-certificates {
+  margin-bottom: 0;
+}
+
+.licenses-certificates li a:hover {
+  color: var(--text-color-hover);
+}
